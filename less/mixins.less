@@ -1,1 +1,17 @@
 // Mixins Here
+.pad(){
+    padding: 15px;
+}
+
+.flex(@just, @wrap){
+    display: flex;
+    justify-content: @just;
+    flex-wrap: @wrap;
+}
+
+//for button:
+.align-width-size(@align, @width, @size){
+    text-align: @align;
+    width: @width;
+    font-size: @size;
+}
