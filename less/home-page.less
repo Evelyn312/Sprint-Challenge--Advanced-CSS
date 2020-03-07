@@ -6,6 +6,10 @@
   }  
   .intro {
 
+    img {
+      width: 100%;
+    }
+
     h2 {
       .pad();
     }
@@ -80,6 +84,10 @@
         padding: 1.5% 3%;
         border-radius: 5px;  
         .align-width-size(center, 30%, 2rem);
+        @media @tablet {
+          width: 100%;
+          padding: 5%;
+        }
       }
       .btn:hover {
         background-color: turquoise;
