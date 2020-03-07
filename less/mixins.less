@@ -8,6 +8,11 @@
     justify-content: @just;
     flex-wrap: @wrap;
 }
+.flex-media(@direct, @just){
+    display: flex;
+    justify-content: @just;
+    flex-direction: @direct;
+}
 
 //for button:
 .align-width-size(@align, @width, @size){
@@ -15,3 +20,5 @@
     width: @width;
     font-size: @size;
 }
+
+@tablet: ~"(max-width: 500px)";
